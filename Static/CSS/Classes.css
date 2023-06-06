@@ -1,0 +1,25 @@
+.fruits
+{
+    background-color: brown;
+    text-align: center;
+    border: 3px solid black;
+    margin: 15px;
+    padding: 15px;
+    font-family: Georgia, serif;
+}
+.cars
+{
+    background-color: #06ecec;
+    text-align: center;
+    border: 3px dotted yellow;
+    margin: 15px;
+    font-family: "Calisto MT", serif;
+
+}
+.movies{
+    background-color: forestgreen;
+    text-align: center;
+    border: 3px double black;
+    margin: 15px;
+    font-family: "Book Antiqua", serif;
+}

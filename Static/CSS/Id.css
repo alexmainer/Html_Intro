@@ -1,0 +1,39 @@
+#audi
+{
+    background-color: hsl(0, 60%, 50%);
+    text-align: center;
+    border: 19px double #00f8ff;
+    margin: 15px;
+    padding: 15px;
+    font-family: "Bauhaus 93", serif;
+}
+#avocado
+{
+    background-color: #0ac9f5;
+    opacity: 0.8; /* opacity-dullness */
+    text-align: center;
+    border: 19px groove #fd3030;
+    margin: 15px;
+    padding: 15px;
+    font-family: "Arial Black", serif;
+}
+#media
+{
+    background-color: #71f625;
+    text-align: center;
+    border: 19px outset black;
+    margin: 15px;
+    padding: 15px;
+    font-family: "Georgia", serif;
+}
+body
+{
+
+    background-image: url("Static/Images/GHOST.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+h1
+{
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+.container
+{
+    max-width: 400px;
+    margin: auto;
+    border: 10px inset rgb(255, 248, 9);
+    border-radius: 5px;
+    padding: 20px;
+}
+.container h2
+{
+    text-align: center;
+}
+.form-group
+{
+    margin-bottom: 20px;
+
+}
+.form-group label
+{
+    margin-top: 5px;
+    display: block;
+    font-weight: bold;
+}
+.form-group input{
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    border: 2px solid #ffc42e;
+    border-left: 6px solid red;
+}
+.form-group button
+{
+    width: 30%;
+    padding: 10px;
+    background-color: #906706;
+    color: ghostwhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover
+{
+    background-color: #f50202;
+}
+body
+{
+    font-family: "Georgia", serif;
+}
+.form-group option
+{
+    font-family: "Bauhaus 93", serif;
+    background-color: #9e00ff;
+    color: #ffc42e;
+}
+.form-group textarea
+{
+   border: double forestgreen 5px;
+    border-radius: 13px;
+}
+.form-group select
+{
+    width: 80%;
+    height: 30px;
+}
+.form-group select:hover{
+    background-color: #83125c;
+}
+/*use ID to specify from class*/
+#username{
+    border-bottom: solid forestgreen 1px;
+    border-left: 6px solid red;
+    border-top: none;
+}
+/* using all borders in one line*/
+#username{
+    border-style: none none dotted solid;
+}
+/*top and sides different*/
+#email{
+    border-top: forestgreen 3px ;
+    border-bottom: forestgreen 3px;
+     border-style: dotted solid;
+}
+/*top-right-bottom-left in that order.works like border styles*/
+#date_of_birth{
+    border-color: #0815f5 rgb(94, 236, 13) #ffc42e hsl(0, 100%, 50%);
+}

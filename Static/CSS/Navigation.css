@@ -1,0 +1,43 @@
+h2
+{
+    text-align: center;
+    font-size: larger;
+}
+h3
+{
+    font-family: Georgia, serif;
+    font-size: 25px;
+
+}
+ul
+{
+    list-style-type: circle;
+    background-color: rgb(181, 71, 115);
+    overflow: auto;
+}
+li
+{
+    float: left;
+}
+li,a
+{
+    padding: 18px;
+    display: block;
+    color: #09eff6;
+    font-family: "Copperplate Gothic Bold", serif;
+}
+li a:hover
+{
+    background-color: black;
+    font-family: Georgia, monospace;
+}
+img
+{
+    width: 250px;
+    height: 250px;
+    border: dashed;
+    padding: 5px;
+}
+p{
+    font-family: "Cooper Black", serif;
+}
